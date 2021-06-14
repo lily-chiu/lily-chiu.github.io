@@ -1,0 +1,45 @@
+@media (max-width: 576px) {
+     :root {
+          --logo-width : 100px;
+          --nav-font-size:large !important
+    }
+}
+
+@media (min-width: 576px) {
+    :root {
+          --logo-width : 150px;
+          --nav-font-size:x-large !important
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+          --logo-width : 150px;
+          --nav-font-size:xx-large !important
+    }
+}
+html, body {
+    height: 100%;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav {
+    font-family:Copperplate Gothic !important; 
+    font-weight: bold !important;
+    font-size: var(--nav-font-size);
+}
+
+.nav-item {
+    margin-right: 4% !important;
+}
+
+.logo {
+    width: var(--logo-width);
+}
+
+.sub_button {
+    font-weight: bold;
+}
